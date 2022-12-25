@@ -1,0 +1,25 @@
+IStructure = Interface
+
+Housing = Datatype_That_Can_Have_Children_Datatypes
+Room = Datatype_That_Cant_Have_Children_Datatypes
+
+structures = variable1
+address = variable2
+name = variable3
+building = datatype_that_can_have_children_datatypes_instance1
+floor1 = datatype_that_can_have_children_datatypes_instance2
+firstFloor = variable4
+washroom1m = datatype_that_cant_have_children_datatypes_instance1
+washroom1w = datatype_that_cant_have_children_datatypes_instance2
+common1 = variable5
+firstMens = variable6
+firstWomans = variable7
+firstCommon = variable8
+currentfloor = variable9
+
+enter = function1 ();
+exit = function2 ()
+location = function3 ()
+getName = function4 ()
+addStructure (component) = add_item_to_array_list_of_datatypes_that_can_and_cant_have_children_datatypes (argument1)
+getStructure (componentNumber) = getter_for_item_from_array_list_of_datatypes_that_can_and_cant_have_children_datatypes (argument1)
